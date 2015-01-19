@@ -8,7 +8,6 @@ case class User(id: Int, nameData: Name)
 
 class JsonNamingSuite extends FunSuite with ShouldMatchers {
 
-
   implicit val nameFormat = JsonNaming.snakecase(Json.format[Name])
   implicit val userFormat = JsonNaming.snakecase(Json.format[User])
 

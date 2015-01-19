@@ -1,3 +1,5 @@
+scalariformSettings
+
 name := """play-json-naming"""
 
 version := "0.1.0-SNAPSHOT"
