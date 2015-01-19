@@ -32,7 +32,7 @@ val _pomExtra =
   <licenses>
     <license>
       <name>Apache License, Version 2.0</name>
-      <url>http://github.com/tototoshi/play-naming/blob/master/LICENSE.txt</url>
+      <url>http://github.com/tototoshi/play-json-naming/blob/master/LICENSE.txt</url>
       <distribution>repo</distribution>
     </license>
   </licenses>
