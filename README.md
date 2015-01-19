@@ -2,7 +2,7 @@
 
 Custom naming convention for play-json to map snake_case json to camelCase case classes.
 
-```scaal
+```scala
 import com.github.tototoshi.play.json.JsonNaming
 
 case class Name(firstName: String, lastName: String)
