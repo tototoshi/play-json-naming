@@ -4,7 +4,7 @@ import play.api.libs.json._
 
 object JsonNaming {
 
-  private def mapKeys[A, B](m: Seq[(A, B)])(f: A => A): Seq[(A, B)] =
+  private def mapKeys[A, B, C](m: Seq[(A, B)])(f: A => C): Seq[(C, B)] =
     m.map { case (k, v) => (f(k), v) }
 
   def snakecase[T](format: Format[T]): Format[T] = new Format[T] {
