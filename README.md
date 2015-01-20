@@ -5,9 +5,7 @@ Custom naming convention for play-json to map snake_case json to camelCase case 
 ## Setup
 
 ```scala
-resolvers += "Sonatype OSS Snapshots" at "https://oss.sonatype.org/content/repositories/snapshots"
-
-libraryDependencies += "com.github.tototoshi" %% "play-json-naming" % "0.1.0-SNAPSHOT"
+libraryDependencies += "com.github.tototoshi" %% "play-json-naming" % "0.1.0"
 ```
 
 ## Usage
