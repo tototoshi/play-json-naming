@@ -6,7 +6,7 @@ version := "0.2.0"
 
 scalaVersion := "2.11.6"
 
-crossScalaVersions := Seq("2.10.4", "2.11.5", "2.11.6")
+crossScalaVersions := Seq("2.10.5", "2.11.6")
 
 libraryDependencies ++= Seq(
   "com.typesafe.play" %% "play-json" % "2.3.9" % "provided",
