@@ -2,7 +2,7 @@ scalariformSettings
 
 name := """play-json-naming"""
 
-version := "1.0.0-RC1"
+version := "1.0.0"
 
 scalaVersion := "2.11.6"
 
