@@ -6,13 +6,14 @@ Custom naming convention for play-json to map snake_case json to camelCase case 
 
 | play-json-naming version | Play version     |
 |--------------------------|------------------|
+| 1.1.0                    | 2.5.x            |
 | 1.0.0                    | 2.4.x            |
 | 0.2.0                    | 2.3.x            |
 
 ## Setup
 
 ```scala
-libraryDependencies += "com.github.tototoshi" %% "play-json-naming" % "1.0.0"
+libraryDependencies += "com.github.tototoshi" %% "play-json-naming" % "1.1.0"
 ```
 
 ## Usage
