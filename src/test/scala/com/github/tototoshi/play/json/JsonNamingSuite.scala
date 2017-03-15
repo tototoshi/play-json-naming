@@ -6,7 +6,7 @@ import play.api.libs.json._
 case class Name(firstName: String, lastName: String)
 case class User(id: Int, nameData: Name)
 
-class JsonNamingSuite extends FunSuite with ShouldMatchers {
+class JsonNamingSuite extends FunSuite with Matchers {
 
   val jsonString = """{"id":1,"name_data":{"first_name":"Toshiyuki","last_name":"Takahashi"}}"""
 
