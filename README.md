@@ -1,11 +1,15 @@
 # play-json-naming
 
+[![Build Status](https://travis-ci.org/tototoshi/play-json-naming.png)](https://travis-ci.org/tototoshi/play-json-naming)
+
+
 Custom naming convention for play-json to map snake_case json to camelCase case classes.
 
 # Releases
 
 | play-json-naming version | Play version     |
 |--------------------------|------------------|
+| 1.2.0-SNAPSHOT           | 2.6.x            |
 | 1.1.0                    | 2.5.x            |
 | 1.0.0                    | 2.4.x            |
 | 0.2.0                    | 2.3.x            |
