@@ -1,15 +1,18 @@
 scalariformSettings
 
+val scalaVersion_2_11 = "2.11.8"
+val scalaVersion_2_12 = "2.12.2"
+
 name := """play-json-naming"""
 
 version := "1.2.0-SNAPSHOT"
 
-scalaVersion := "2.12.1"
+scalaVersion := scalaVersion_2_11
 
-crossScalaVersions := Seq("2.11.8", "2.12.1")
+crossScalaVersions := Seq(scalaVersion_2_11, scalaVersion_2_12)
 
 libraryDependencies ++= Seq(
-  "com.typesafe.play" %% "play-json" % "2.6.0-RC2" % "provided",
+  "com.typesafe.play" %% "play-json" % "2.6.0" % "provided",
   "org.scalatest" %% "scalatest" % "3.0.1" % "test"
 )
 
