@@ -34,11 +34,11 @@ publishTo := {
 publishArtifact in Test := false
 
 pomExtra := 
-  <url>http://github.com/tototoshi/play-json-naming</url>
+  <url>https://github.com/tototoshi/play-json-naming</url>
   <licenses>
     <license>
       <name>Apache License, Version 2.0</name>
-      <url>http://github.com/tototoshi/play-json-naming/blob/master/LICENSE.txt</url>
+      <url>https://github.com/tototoshi/play-json-naming/blob/master/LICENSE.txt</url>
       <distribution>repo</distribution>
     </license>
   </licenses>
@@ -50,6 +50,6 @@ pomExtra :=
     <developer>
       <id>tototoshi</id>
       <name>Toshiyuki Takahashi</name>
-      <url>http://tototoshi.github.com</url>
+      <url>https://tototoshi.github.com</url>
     </developer>
   </developers>
