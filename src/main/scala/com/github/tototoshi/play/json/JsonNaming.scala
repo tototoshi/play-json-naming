@@ -11,7 +11,7 @@ object JsonNaming {
     def reads(json: JsValue): JsResult[T] = {
       parentReads(json match {
         case obj: JsObject => JsObject(mapKeys(obj.fields)(StringUtil.camelcase))
-        case x => x
+        case x             => x
       })
     }
   }
@@ -20,7 +20,7 @@ object JsonNaming {
     def writes(o: T): JsValue = {
       parentWrites(o) match {
         case obj: JsObject => JsObject(mapKeys(obj.fields)(StringUtil.snakecase))
-        case x => x
+        case x             => x
       }
     }
   }

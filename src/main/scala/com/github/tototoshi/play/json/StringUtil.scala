@@ -6,7 +6,7 @@ private[json] object StringUtil {
 
   def camelcase(s: String): String = (s.split("_").toList match {
     case head :: tail => head :: tail.map(_.capitalize)
-    case x => x
+    case x            => x
   }).mkString
 
   def snakecase(s: String): String = s.foldLeft(new StringBuilder) {
