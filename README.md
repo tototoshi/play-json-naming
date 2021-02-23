@@ -1,7 +1,6 @@
 # play-json-naming
 
-[![Build Status](https://travis-ci.org/tototoshi/play-json-naming.png)](https://travis-ci.org/tototoshi/play-json-naming)
-
+[![Scala CI](https://github.com/tototoshi/play-json-naming/actions/workflows/scala.yml/badge.svg)](https://github.com/tototoshi/play-json-naming/actions/workflows/scala.yml)
 
 Custom naming convention for play-json to map snake_case json to camelCase case classes.
 
