@@ -2,8 +2,10 @@ package com.github.tototoshi.play.json
 
 import org.scalatest._
 import play.api.libs.json._
+import org.scalatest.funsuite.AnyFunSuite
+import org.scalatest.matchers.should.Matchers
 
-class StringUtilSuite extends FunSuite with Matchers {
+class StringUtilSuite extends AnyFunSuite with Matchers {
 
   test("camelCase -> snake_case") {
     StringUtil.snakecase("play") should be("play")

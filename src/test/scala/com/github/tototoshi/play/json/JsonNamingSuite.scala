@@ -2,11 +2,13 @@ package com.github.tototoshi.play.json
 
 import org.scalatest._
 import play.api.libs.json._
+import org.scalatest.funsuite.AnyFunSuite
+import org.scalatest.matchers.should.Matchers
 
 case class Name(firstName: String, lastName: String)
 case class User(id: Int, nameData: Name)
 
-class JsonNamingSuite extends FunSuite with Matchers {
+class JsonNamingSuite extends AnyFunSuite with Matchers {
 
   val jsonString = """{"id":1,"name_data":{"first_name":"Toshiyuki","last_name":"Takahashi"}}"""
 
