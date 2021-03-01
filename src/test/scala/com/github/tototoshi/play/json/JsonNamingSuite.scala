@@ -1,9 +1,8 @@
 package com.github.tototoshi.play.json
 
-import org.scalatest._
-import play.api.libs.json._
 import org.scalatest.funsuite.AnyFunSuite
 import org.scalatest.matchers.should.Matchers
+import play.api.libs.json.Json
 
 case class Name(firstName: String, lastName: String)
 case class User(id: Int, nameData: Name)
