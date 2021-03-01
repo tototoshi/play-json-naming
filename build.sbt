@@ -5,7 +5,7 @@ val scalaVersion_2_12 = "2.12.13"
 
 name := """play-json-naming"""
 
-version := "1.3.1"
+version := "1.4.0-SNAPSHOT"
 
 scalaVersion := scalaVersion_2_11
 
@@ -33,7 +33,7 @@ publishTo := {
 
 publishArtifact in Test := false
 
-pomExtra := 
+pomExtra :=
   <url>https://github.com/tototoshi/play-json-naming</url>
   <licenses>
     <license>
