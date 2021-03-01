@@ -6,20 +6,21 @@ Custom naming convention for play-json to map snake_case json to camelCase case 
 
 # Releases
 
-For Play 2.6, I recommend to use [play.api.libs.json.JsonNaming](https://www.playframework.com/documentation/2.6.x/ScalaJsonAutomated#Custom-Naming-Strategies)
+For Play 2.6 or later, I recommend to use [play.api.libs.json.JsonNaming](https://www.playframework.com/documentation/2.6.x/ScalaJsonAutomated#Custom-Naming-Strategies)
 
-| play-json-naming version | Play version     |
-|--------------------------|------------------|
-| 1.3.2                    | 2.7.x            |
-| 1.2.0                    | 2.6.x            |
-| 1.1.0                    | 2.5.x            |
-| 1.0.0                    | 2.4.x            |
-| 0.2.0                    | 2.3.x            |
+| play-json-naming version | play-json version |
+|--------------------------|-------------------|
+| 1.4.0                    | 2.8.x             |
+| 1.3.2                    | 2.7.x             |
+| 1.2.0                    | 2.6.x             |
+| 1.1.0                    | 2.5.x             |
+| 1.0.0                    | 2.4.x             |
+| 0.2.0                    | 2.3.x             |
 
 ## Setup
 
 ```scala
-libraryDependencies += "com.github.tototoshi" %% "play-json-naming" % "1.3.2"
+libraryDependencies += "com.github.tototoshi" %% "play-json-naming" % "1.4.0"
 ```
 
 ## Usage
