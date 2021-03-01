@@ -1,6 +1,7 @@
 package com.github.tototoshi.play.json
 
-import play.api.libs.json._
+import play.api.libs.json.{ Format, JsObject, JsResult, JsValue, Reads, Writes }
+import scala.collection.Seq
 
 object JsonNaming {
 
