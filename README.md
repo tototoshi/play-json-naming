@@ -10,7 +10,7 @@ For Play 2.6, I recommend to use [play.api.libs.json.JsonNaming](https://www.pla
 
 | play-json-naming version | Play version     |
 |--------------------------|------------------|
-| 1.3.0                    | 2.7.x            |
+| 1.3.1                    | 2.7.x            |
 | 1.2.0                    | 2.6.x            |
 | 1.1.0                    | 2.5.x            |
 | 1.0.0                    | 2.4.x            |
@@ -19,7 +19,7 @@ For Play 2.6, I recommend to use [play.api.libs.json.JsonNaming](https://www.pla
 ## Setup
 
 ```scala
-libraryDependencies += "com.github.tototoshi" %% "play-json-naming" % "1.3.0"
+libraryDependencies += "com.github.tototoshi" %% "play-json-naming" % "1.3.1"
 ```
 
 ## Usage

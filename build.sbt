@@ -5,7 +5,7 @@ val scalaVersion_2_12 = "2.12.13"
 
 name := """play-json-naming"""
 
-version := "1.3.1-SNAPSHOT"
+version := "1.3.1"
 
 scalaVersion := scalaVersion_2_11
 
