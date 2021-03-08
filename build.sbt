@@ -13,7 +13,7 @@ crossScalaVersions := Seq(scalaVersion_2_12, scalaVersion_2_13)
 
 libraryDependencies ++= Seq(
   "com.typesafe.play" %% "play-json" % "2.9.2" % "provided",
-  "org.scalatest" %% "scalatest" % "3.2.5" % "test"
+  "org.scalatest" %% "scalatest" % "3.2.6" % "test"
 )
 
 organization := "com.github.tototoshi"
