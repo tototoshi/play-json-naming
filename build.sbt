@@ -1,6 +1,6 @@
 import scalariform.formatter.preferences._
 
-val scalaVersion_2_12 = "2.12.15"
+val scalaVersion_2_12 = "2.12.16"
 val scalaVersion_2_13 = "2.13.8"
 
 name := """play-json-naming"""
