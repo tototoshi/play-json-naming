@@ -1,7 +1,7 @@
 import scalariform.formatter.preferences._
 
-val scalaVersion_2_12 = "2.12.17"
-val scalaVersion_2_13 = "2.13.8"
+val scalaVersion_2_12 = "2.12.18"
+val scalaVersion_2_13 = "2.13.11"
 
 name := """play-json-naming"""
 
@@ -12,8 +12,8 @@ scalaVersion := scalaVersion_2_13
 crossScalaVersions := Seq(scalaVersion_2_12, scalaVersion_2_13)
 
 libraryDependencies ++= Seq(
-  "com.typesafe.play" %% "play-json" % "2.9.3" % "provided",
-  "org.scalatest" %% "scalatest" % "3.2.13" % "test"
+  "com.typesafe.play" %% "play-json" % "2.9.4" % "provided",
+  "org.scalatest" %% "scalatest" % "3.2.16" % "test"
 )
 
 organization := "com.github.tototoshi"
